@@ -25,7 +25,7 @@ As of this writing, the easiest way is to run one of the following in the comman
 - `dotnet test --settings .runsettings --filter name~lcs`
     - Run tests based on name
     
-[Microsoft's documentation] on their `dotnet test` command can be found here: 
+If you have any questions regarding the `dotnet test` command, you can check it out following the [Microsoft's documentation]. 
 
 ## Questions or Feedback
 
