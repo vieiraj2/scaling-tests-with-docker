@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/josevieira/Documents/workspace/code/my-projects/scaling-tests-with-docker/Esports/League.Com/League.Com.csproj": {}
+  },
+  "projects": {
+    "/Users/josevieira/Documents/workspace/code/my-projects/scaling-tests-with-docker/Esports/Framework/Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/josevieira/Documents/workspace/code/my-projects/scaling-tests-with-docker/Esports/Framework/Framework.csproj",
+        "projectName": "Framework",
+        "projectPath": "/Users/josevieira/Documents/workspace/code/my-projects/scaling-tests-with-docker/Esports/Framework/Framework.csproj",
+        "packagesPath": "/Users/josevieira/.nuget/packages/",
+        "outputPath": "/Users/josevieira/Documents/workspace/code/my-projects/scaling-tests-with-docker/Esports/Framework/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/josevieira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.3.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/josevieira/Documents/workspace/code/my-projects/scaling-tests-with-docker/Esports/League.Com/League.Com.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/josevieira/Documents/workspace/code/my-projects/scaling-tests-with-docker/Esports/League.Com/League.Com.csproj",
+        "projectName": "League.Com",
+        "projectPath": "/Users/josevieira/Documents/workspace/code/my-projects/scaling-tests-with-docker/Esports/League.Com/League.Com.csproj",
+        "packagesPath": "/Users/josevieira/.nuget/packages/",
+        "outputPath": "/Users/josevieira/Documents/workspace/code/my-projects/scaling-tests-with-docker/Esports/League.Com/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/josevieira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/josevieira/Documents/workspace/code/my-projects/scaling-tests-with-docker/Esports/Framework/Framework.csproj": {
+                "projectPath": "/Users/josevieira/Documents/workspace/code/my-projects/scaling-tests-with-docker/Esports/Framework/Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
